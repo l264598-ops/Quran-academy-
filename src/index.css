@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-arabic: 'Amiri', 'Scheherazade New', serif;
+  }
+}
+
+.font-arabic {
+  font-family: var(--font-arabic), serif;
+}
+
+.font-sans-custom {
+  font-family: var(--font-sans), sans-serif;
+}
+
+/* Islamic Geometric Subdued Background Pattern */
+.bg-islamic-pattern {
+  background-color: #064E3B;
+  background-image: radial-gradient(rgba(217, 119, 6, 0.12) 1px, transparent 1px), radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.bg-ivory-pattern {
+  background-color: #FDFBF7;
+  background-image: radial-gradient(rgba(6, 78, 59, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1ede5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

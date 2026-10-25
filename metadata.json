@@ -1,0 +1,6 @@
+{
+  "name": "Online Quran Academy — Teacher Bua Qasim Shigry",
+  "description": "Premium online Quran academy platform offering Nazira, Tajweed, Hifz, Tafseer, and Islamic studies with 16 years teaching experience and 500+ satisfied students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
